@@ -1,0 +1,16 @@
+#lex_auth_012751124968554496166
+#Start writing your code here
+
+class Classroom:
+    classroom_list=[]
+        
+    @staticmethod
+    def search_classroom(class_room):
+        for i in Classroom.classroom_list:
+            if i==class_room.upper():
+                return "Found"
+        else:
+            return -1
+    
+    
+        
